@@ -16,7 +16,7 @@ def get_formatted(msg, imie, format):
     elif format == PLAIN_LO:
         result = plain_text_lower_case(msg, imie)
     elif format == JSON:
-        result = format_to_jon(msg, imie)
+        result = format_to_json(msg, imie)
     return result
 
 
